@@ -37,7 +37,15 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
+}
+#answer {
+  position: absolute;
+  right: 15%;
+  bottom: 25%;
+}
+label {
+  font-size: 40px;
+  color: #f0400b;
 }
 #hold {
   /* display: none; */

@@ -10,8 +10,37 @@
 </head>
 <body>
   <div class="container">
-    <h1>Refresh Me</h1>
-
+    <h1>Pig Dice</h1>
+    <div class="dice">
+      <form id="">
+        <div class="form-group">
+          <label>Enter New Player</label>
+          <input id="new-player" class="form-control" type="text">
+          <button class="btn btn-danger btn-lg">Enter Player!</button>
+        </div>
+        <div>
+        <select class="form-control" id="player-list">
+          <option>- Choose Player 1-</option>
+          <option>Austin Landis</option>
+          <option>James Wyn</option>
+          <option>Sage Sypert</option>
+          <option>Olha Hi</option>
+          <option>Diego Salazar</option>
+        </select>
+        </div>
+        <div>
+          <select class="form-control" id="player-list">
+            <option>- Choose Player 2-</option>
+            <option>Austin Landis</option>
+            <option>James Wyn</option>
+            <option>Sage Sypert</option>
+            <option>Olha Hi</option>
+            <option>Diego Salazar</option>
+          </select>
+          <button id="start-game" class="btn btn-danger btn-lg">Start Game!</button>
+          </div>
+      </form>
+    </div>
     <div class="dice">
       <p>Player 1</p>
       
@@ -28,6 +57,12 @@
     <div id="gameplay">
       <button class="btn btn-danger btn-lg" id="roll">Roll</button>
       <button class="btn btn-danger btn-lg" id="hold">Hold</button>
+    </div>
+    <div id="answer">
+      <div>
+        <p>Turn Score: <span class="turn-score"></span></p>
+        <p>Total: <span class="total"></span></p>
+      </div>
     </div>
   </div>
 </body>
